@@ -1,0 +1,7 @@
+<!DOCTYPE employee SYSTEM "employee.dtd">
+<employee>
+<employeeid>E01</employeeid>
+<firstname>Amit</firstname>
+<lastname>Patel</lastname>
+<salary>34000</salary>
+</employee>

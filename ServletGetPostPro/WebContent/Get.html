@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Demonstrates usage of HTTP GET</title>
+</head>
+<body>
+<form action="getServlet">
+<!-- empId is set in HTTP Request as request parameter
+HttpRequest parameter name=empId
+HttpRequest parameter value=input give by end-user
+If HttpRequest method is GET,parameter name and parameter value are appended in URL(Query String)
+  -->
+Employee Id:<input type="text" name="empId"/>
+<input type="submit" value="Retrieve Employee Details"/>
+</form>
+</body>
+</html>
